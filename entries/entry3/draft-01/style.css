@@ -9,16 +9,24 @@ body {
     background-color: HoneyDew;
 }
 
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:ForestGreen;
-    font-size: 50px;
-}
-h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:mediumseagreen;
-    font-size: 32px;
-}
+h1 {font-family: Times New Roman, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: OliveDrab;
+    font-size: 200px;
+    text-align: left; 
+  }
+  
+h2 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 19, 115);
+    font-size: 90px;
+    font-weight: 600;
+    background-color: OliveDrab; 
+    padding: 60px; 
+  }
+  
+  span {
+    color: rgb(111, 0, 0);
+  }
+
 em {
     font-family: Times New Roman, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:OliveDrab;
