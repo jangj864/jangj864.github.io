@@ -6,7 +6,7 @@
   p {
 	font-size: 1.2em;
 	line-height: 1.4em;
-	color: #333333;
+	color: #00572b;
   }
   
   a {
@@ -43,7 +43,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #333333;
+	background: #ffffff;
 	z-index: -1;
   }
 
