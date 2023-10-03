@@ -1,5 +1,5 @@
 .cursor {
-	cursor: url(/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry4/draft-04/money_cursor.png), auto;
+	cursor: url(/entries/entry4/draft-04/money_cursor.png), auto;
 }
 
 body {
@@ -247,9 +247,7 @@ h5 {
   }
 
   
-/* ============================
-				Mobile Responsiveness
-   ============================*/
+<narrow>
 
 
 @media(max-width: 768px) {
