@@ -1,7 +1,7 @@
 body {
   background-color: lavender;
   height: 200vh;
-  cursor: url('entries/entry5/final/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 h1 {
@@ -66,14 +66,14 @@ hr {
   width: auto;
   height: auto;
   margin:0 auto;
-  cursor: url('entries/entry5/final/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 div {
   width: 340px;
   height: 110px;
   margin:0 auto;
-  cursor: url('entries/entry5/final/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 .static {
@@ -82,7 +82,7 @@ position: static;
 height: auto;
 width: 300px;
 padding: 7px;
-cursor: url('entries/entry5/final/fingercursor.png'), auto;
+cursor: url('entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 .relative {
@@ -90,7 +90,7 @@ cursor: url('entries/entry5/final/fingercursor.png'), auto;
   position: relative;
   left: 100px;
   top: 50px;
-  cursor: url('entries/entry5/final/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 .edge {
@@ -100,7 +100,7 @@ cursor: url('entries/entry5/final/fingercursor.png'), auto;
   height: auto;
   width: 300px;
   padding: 7px;   
-  cursor: url('entries/entry5/final/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 .center{
@@ -109,7 +109,7 @@ cursor: url('entries/entry5/final/fingercursor.png'), auto;
   left:50%;
   transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
-  cursor: url('entries/entry5/final/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 
@@ -118,7 +118,7 @@ cursor: url('entries/entry5/final/fingercursor.png'), auto;
   top:50%;
   transform:translateY(-50%);
   -webkit-transform:translateY(-50%);
-  cursor: url('entries/entry5/final/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 #pointer {
