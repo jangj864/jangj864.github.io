@@ -1,7 +1,7 @@
 body {
   background-color: lavender;
   height: 200vh;
-  cursor: url('entries/entry5/final/phone.png'), auto;
+  cursor: url('entries/entry5/final/fingercursor.png'), auto;
 }
 
 h1 {
@@ -66,14 +66,14 @@ hr {
   width: auto;
   height: auto;
   margin:0 auto;
-  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/fingercursor.png'), auto;
 }
 
 div {
   width: 340px;
   height: 110px;
   margin:0 auto;
-  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/fingercursor.png'), auto;
 }
 
 .static {
@@ -82,7 +82,7 @@ position: static;
 height: auto;
 width: 300px;
 padding: 7px;
-cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+cursor: url('entries/entry5/final/fingercursor.png'), auto;
 }
 
 .relative {
@@ -90,7 +90,7 @@ cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/d
   position: relative;
   left: 100px;
   top: 50px;
-  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/fingercursor.png'), auto;
 }
 
 .edge {
@@ -100,13 +100,13 @@ cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/d
   height: auto;
   width: 300px;
   padding: 7px;   
-  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/fingercursor.png'), auto;
 }
 
 .sticky {
   background-color: #63ADF2;
 /*  position: sticky;*/
-cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+cursor: url('entries/entry5/final/fingercursor.png'), auto;
 }
 
 .center{
@@ -115,7 +115,7 @@ cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/d
   left:50%;
   transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
-  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/fingercursor.png'), auto;
 }
 
 
@@ -124,7 +124,7 @@ cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/d
   top:50%;
   transform:translateY(-50%);
   -webkit-transform:translateY(-50%);
-  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+  cursor: url('entries/entry5/final/fingercursor.png'), auto;
 }
 
 #pointer {
