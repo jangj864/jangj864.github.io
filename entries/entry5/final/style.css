@@ -17,7 +17,7 @@ h1 {
 h2 {
   font-family: "bitcount-grid-double-plus", sans-serif;
   font-weight: 500;
-  ont-style: normal;
+  font-style: normal;
 }
 
 h3 {
@@ -101,12 +101,6 @@ cursor: url('entries/entry5/final/fingercursor.png'), auto;
   width: 300px;
   padding: 7px;   
   cursor: url('entries/entry5/final/fingercursor.png'), auto;
-}
-
-.sticky {
-  background-color: #63ADF2;
-/*  position: sticky;*/
-cursor: url('entries/entry5/final/fingercursor.png'), auto;
 }
 
 .center{
