@@ -1,0 +1,157 @@
+body {
+  background-color: lavender;
+  height: 200vh;
+  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+}
+
+h1 {
+  font-family: "bitcount-mono-single-square", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center; 
+  letter-spacing: 0px;
+  word-spacing: -10px;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: "bitcount-grid-double-plus", sans-serif;
+  font-weight: 500;
+  ont-style: normal;
+}
+
+h3 {
+  font-family: "bitcount-grid-double-square", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4 {
+  font-family: "bitcount-mono-single-square", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: -1px;
+  word-spacing: -1px;
+  text-align: center; 
+}
+
+h5 {
+  font-family: "ccsignlanguage", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 60px;
+  text-align: center; 
+  letter-spacing: -1px;
+  word-spacing: -1px;
+  line-height:80px;
+  color: #545E75;
+}
+
+h6 {
+  font-family: "six-hands-condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: -1px;
+  text-align: center; 
+}
+
+
+hr {
+  border-top: 1px dashed rgb(80, 80, 80);
+}
+
+.fixed {
+  position: fixed;
+  width: auto;
+  height: auto;
+  margin:0 auto;
+  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+}
+
+div {
+  width: 340px;
+  height: 110px;
+  margin:0 auto;
+  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+}
+
+.static {
+background-color: rgb(255, 255, 255);
+position: static;
+height: auto;
+width: 300px;
+padding: 7px;
+cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+}
+
+.relative {
+  background-color: yellow;
+  position: relative;
+  left: 100px;
+  top: 50px;
+  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+}
+
+.edge {
+  background: rgb(230,230,250);
+  background: linear-gradient(180deg, rgba(230,230,250,1) 0%, rgba(144,144,144,1) 36%, rgba(181,181,181,1) 43%, rgba(255,255,255,1) 100%);
+  top: 30px;
+  height: auto;
+  width: 300px;
+  padding: 7px;   
+  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+}
+
+.sticky {
+  background-color: #63ADF2;
+/*  position: sticky;*/
+cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+}
+
+.center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+}
+
+
+.centerVertical{
+  position: fixed;
+  top:50%;
+  transform:translateY(-50%);
+  -webkit-transform:translateY(-50%);
+  cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/draft-01/fingercursor.png'), auto;
+}
+
+#pointer {
+  width: 400px;
+  height: 40px;
+  position: relative;
+  background: #63ADF2;
+}
+#pointer:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid rgb(230, 230, 250);
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+#pointer:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #63ADF2;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
