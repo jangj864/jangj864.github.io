@@ -73,7 +73,7 @@ div {
   width: 340px;
   height: 110px;
   margin:0 auto;
-  cursor: url('entries/entry5/final/img/fingercursor.png'), auto;
+  cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 .static {
