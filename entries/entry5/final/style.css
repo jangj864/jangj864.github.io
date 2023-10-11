@@ -67,6 +67,9 @@ hr {
   height: auto;
   margin:0 auto;
   cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
+  left:50%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
 }
 
 div {
