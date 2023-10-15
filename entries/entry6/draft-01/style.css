@@ -23,7 +23,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;  
   column-gap: 20px; /* Gap between columns */
-  row-gap: 20px; /* Gap between rows */1
+  row-gap: 20px; /* Gap between rows */
   font-family: 'PT Mono', monospace;
   color: #ffffff;
   font-size: 36px;
