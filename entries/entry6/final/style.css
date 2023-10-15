@@ -1,0 +1,308 @@
+
+/*this tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
+* {box-sizing:  border-box;}
+
+
+/* In this case, we are defining default styles for mobile; use media queries to modify for other device sizes */
+body {
+  margin: 20px;
+  padding: 0;
+  background-color: #ececec;
+}
+
+.h1 {
+  font-family: "brushberry-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  font-weight: normal;
+  letter-spacing: -10px;
+  word-spacing: -5px;
+  color: #004c22;
+}
+
+.container1{
+  font-family: "brushberry-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  word-spacing: -5px;
+  letter-spacing: -5px;
+  column-gap: 0px; /* Gap between columns */
+  row-gap: 0px; /* Gap between rows */
+  color: #00460c;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.section-heading {
+  font-family: "brushberry-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(13, 0, 190);
+  font-size: 30px;
+  text-align: center; 
+}
+
+.section-heading span {
+  font-family: "brushberry-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(146, 0, 0);
+}
+
+.container2{
+  font-family: "brushberry-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 1fr;  
+  column-gap: 10px; /* Gap between columns */
+  row-gap: 10px; /* Gap between rows */
+  font-family: 'PT Mono', monospace;
+  color: #ff0000;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container3 {
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 5px; /* Gap between columns */
+  row-gap: 5px; /* Gap between rows */
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin: 0px;
+  width: 100%;
+  height: 580px;
+}
+
+.item1 {
+  background-color: #ffffff;
+  transition: opacity 0.5s ease-in-out;
+}
+.item1:hover {
+  background: rgb(154, 0, 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item2 {
+  background-color:  #ffffff;
+}
+.item2:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item3 {
+  background-color:  #ffffff;
+
+}
+.item3:hover {
+  background: rgb(154, 0, 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item4 {
+  background-color:  #ffffff;
+}
+.item4:hover {
+  background: rgb(154, 0, 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item5 {
+  background-color:  #ffffff;
+}
+.item5:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item6 {
+  background-color:  #ffffff;
+}
+.item6:hover {
+  background: rgb(154, 0, 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item7 {
+  background-color:  #ffffff;
+}
+.item7:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item8 {
+  background-color:  #ffffff;
+}
+.item8:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item9 {
+  background-color:  #ffffff;
+}
+.item9:hover {
+  background: rgb(154, 0, 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item10 {
+  background-color:  #ffffff;
+}
+.item10:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item11 {
+  background-color:  #ffffff;
+}
+.item11:hover {
+  background: rgb(154, 0, 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item12 {
+  background-color:  #ffffff;
+}
+.item12:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item13 {
+  background-color:  #ffffff;
+}
+.item13:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item14 {
+  background-color:  #ffffff;
+}
+.item14:hover {
+  background: rgb(154, 0, 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item15 {
+  background-color:  #ffffff;
+}
+.item15:hover {
+  background: rgb(154, 0, 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item16 {
+  background-color:  #ffffff;
+}
+.item16:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item17 {
+  background-color:  #ffffff;
+}
+.item17:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item18 {
+  background-color:  #ffffff;
+}
+.item18:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item19 {
+  background-color:  #ffffff;
+}
+.item19s:hover {
+  background: rgb(154, 0, 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item20 {
+  background-color:  #ffffff;
+}
+.item20:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item21 {
+  background-color:  #ffffff;
+}
+.item21:hover {
+  background: rgb(7, 52, 213);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item22 {
+  background-color:  #ffffff;
+}
+.item22:hover {
+  background: rgb(154, 0, 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  .container3 {
+    grid-template-columns: 1fr 1fr; 
+    column-gap: 10px; /* Gap between columns */
+    row-gap: 10px; /* Gap between rows */
+}
+  
+
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  .container3 {
+  grid-template-columns: 1fr 1fr 1fr; 
+  column-gap: 10px; /* Gap between columns */
+  row-gap: 10px; /* Gap between rows */
+}
+
+}
+
+
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+
+  .container3 {
+    grid-template-columns: repeat(5, 1fr); /* Creates four columns, each taking up an equal fraction of the available space */
+    column-gap: 10px; /* Gap between columns */
+    row-gap: 10px; /* Gap between rows */
+}
+  
+    
+
+  
+}
