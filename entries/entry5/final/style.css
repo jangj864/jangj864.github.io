@@ -75,7 +75,7 @@ hr {
 div {
   width: 340px;
   height: 110px;
-  margin:3 auto;
+  margin:0 auto;
   cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
 }
 
@@ -94,7 +94,6 @@ cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
   left: 100px;
   top: 50px;
   cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
-  margin: 50px;
 }
 
 .edge {
