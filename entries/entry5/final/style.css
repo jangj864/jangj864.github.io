@@ -86,6 +86,7 @@ height: auto;
 width: 300px;
 padding: 7px;
 cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
+margin:0 auto;
 }
 
 .relative {
