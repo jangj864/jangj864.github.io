@@ -95,6 +95,7 @@ margin:0 auto;
   left: 100px;
   top: 50px;
   cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
+  margin:0 auto;
 }
 
 .edge {
@@ -105,6 +106,7 @@ margin:0 auto;
   width: 300px;
   padding: 7px;   
   cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
+  margin:0 auto;
 }
 
 .center{
@@ -114,6 +116,7 @@ margin:0 auto;
   transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
   cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
+  margin:0 auto;
 }
 
 
