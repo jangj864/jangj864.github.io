@@ -1,0 +1,198 @@
+
+/*this tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
+* {box-sizing:  border-box;}
+
+
+/* In this case, we are defining default styles for mobile; use media queries to modify for other device sizes */
+body {
+  margin: 30px;
+  padding: 0;
+  background-color: #042135;
+
+
+}
+
+.h1 {
+  font-size: 100px;
+  font-weight: normal;
+  letter-spacing: -10px;
+  color: #ffffff;
+}
+
+.container1{
+  display: grid;
+  grid-template-columns: 1fr;  
+  column-gap: 20px; /* Gap between columns */
+  row-gap: 20px; /* Gap between rows */1
+  font-family: 'PT Mono', monospace;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.section-heading {
+  color: rgb(13, 0, 190);
+  font-size: 30px;
+  text-align: center; 
+}
+
+.section-heading span {
+  color: rgb(146, 0, 0);
+}
+
+
+.container2{
+  display: grid;
+  grid-template-columns: 1fr;  
+  column-gap: 20px; /* Gap between columns */
+  row-gap: 20px; /* Gap between rows */
+  font-family: 'PT Mono', monospace;
+  color: #ff0000;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 20px; /* Gap between columns */
+  row-gap: 20px; /* Gap between rows */
+  font-family: 'PT Mono', monospace;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin: 0px;
+  width: 100%;
+  height: 200px;
+}
+
+.item1 {
+  background-color: #ff62f4;
+}
+
+.item2 {
+  background-color:  #00a4ff;
+
+}
+
+.item3 {
+  background-color:  #af6801;
+
+}
+
+.item4 {
+  background-color:  #01ed6e;
+
+}
+
+.item5 {
+  background-color:  #fff93f;
+}
+
+.item6 {
+  background-color:  #ff4e00;
+}
+
+.item7 {
+  background-color: #ff62f4;
+}
+
+.item8 {
+  background-color:  #00a4ff;
+
+}
+
+.item9 {
+  background-color:  #af6801;
+
+}
+
+.item10 {
+  background-color: #ff62f4;
+}
+
+.item11 {
+  background-color: #ff62f4;
+}
+
+.item12 {
+  background-color:  #00a4ff;
+
+}
+
+.item13 {
+  background-color:  #af6801;
+
+}
+
+.item14 {
+  background-color:  #01ed6e;
+
+}
+
+.item15 {
+  background-color:  #fff93f;
+}
+
+.item16 {
+  background-color:  #ff4e00;
+}
+
+.item17 {
+  background-color: #ff62f4;
+}
+
+.item18 {
+  background-color:  #00a4ff;
+
+}
+
+.item19 {
+  background-color:  #af6801;
+
+}
+
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  .container3 {
+    grid-template-columns: 1fr 4fr; 
+    column-gap: 20px; /* Gap between columns */
+    row-gap: 20px; /* Gap between rows */
+}
+  
+
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+    .container3 {
+    grid-template-columns: 1fr 2fr; 
+    column-gap: 20px; /* Gap between columns */
+    row-gap: 20px; /* Gap between rows */
+}
+  
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+
+  .container3 {
+    grid-template-columns: repeat(6, 1fr); /* Creates four columns, each taking up an equal fraction of the available space */
+    column-gap: 20px; /* Gap between columns */
+    row-gap: 20px; /* Gap between rows */
+}
+  
+    
+
+  
+}
