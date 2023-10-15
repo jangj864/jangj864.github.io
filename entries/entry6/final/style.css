@@ -1,3 +1,6 @@
+.cursor {
+	cursor: url(/entries/entry6/final/img/cursor.png), auto;
+}
 
 /*this tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
 * {box-sizing:  border-box;}
