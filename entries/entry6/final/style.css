@@ -295,6 +295,17 @@ body {
 }
 
 
+/* Desktop breakpoint */
+@media (min-width: 1100px) {
+  .container3 {
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  column-gap: 10px; /* Gap between columns */
+  row-gap: 10px; /* Gap between rows */
+}
+
+}
+
+
 
 /* Wide screen breakpoint */
 @media (min-width: 1200px) {
