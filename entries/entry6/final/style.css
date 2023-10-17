@@ -2,11 +2,10 @@
 	cursor: url(/entries/entry6/final/img/cursor.png), auto;
 }
 
-/*this tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
+
 * {box-sizing:  border-box;}
 
 
-/* In this case, we are defining default styles for mobile; use media queries to modify for other device sizes */
 body {
   margin: 20px;
   padding: 0;
@@ -277,19 +276,18 @@ body {
 @media (min-width: 768px) {
   .container3 {
     grid-template-columns: 1fr 1fr; 
-    column-gap: 10px; /* Gap between columns */
-    row-gap: 10px; /* Gap between rows */
+    column-gap: 10px; 
+    row-gap: 10px; 
 }
   
-
 }
 
 /* Desktop breakpoint */
 @media (min-width: 992px) {
   .container3 {
   grid-template-columns: 1fr 1fr 1fr; 
-  column-gap: 10px; /* Gap between columns */
-  row-gap: 10px; /* Gap between rows */
+  column-gap: 10px; 
+  row-gap: 10px; 
 }
 
 }
@@ -299,8 +297,8 @@ body {
 @media (min-width: 1200px) {
   .container3 {
   grid-template-columns: 1fr 1fr 1fr 1fr; 
-  column-gap: 10px; /* Gap between columns */
-  row-gap: 10px; /* Gap between rows */
+  column-gap: 10px; 
+  row-gap: 10px; 
 }
 
 }
@@ -311,12 +309,9 @@ body {
 @media (min-width: 1400px) {
 
   .container3 {
-    grid-template-columns: repeat(5, 1fr); /* Creates four columns, each taking up an equal fraction of the available space */
-    column-gap: 10px; /* Gap between columns */
-    row-gap: 10px; /* Gap between rows */
+    grid-template-columns: repeat(5, 1fr); 
+    column-gap: 10px; 
+    row-gap: 10px; 
 }
-  
-    
-
   
 }
