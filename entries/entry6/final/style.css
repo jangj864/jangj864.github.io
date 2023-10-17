@@ -294,7 +294,7 @@ body {
 
 
 /* Desktop breakpoint */
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .container3 {
   grid-template-columns: 1fr 1fr 1fr 1fr; 
   column-gap: 10px; 
