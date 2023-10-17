@@ -306,7 +306,7 @@ body {
 
 
 /* Wide screen breakpoint */
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
 
   .container3 {
     grid-template-columns: repeat(5, 1fr); 
