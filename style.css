@@ -9,8 +9,6 @@ text-transform: uppercase;
 display: block;
 font-size: 80px;
 text-align: center;
-
--webkit-text-stroke: white;
 }
 
 .gradient-fill {
@@ -70,7 +68,7 @@ body {
   text-align: center;
   font-size: 30px;
   line-height: 1.4;
-  background-image: url("/Users/ddoazoo/Desktop/jangj864.github.io/img/mall.jpg");
+  background-image: url("img/mall.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
