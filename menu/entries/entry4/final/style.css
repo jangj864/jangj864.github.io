@@ -122,7 +122,7 @@ body {
 }
 
 .sad-cursor {
-  cursor: url(/entries/entry4/final/img/sad-cursor.png), auto;
+  cursor: url(menu/entries/entry4/final/img/sad-cursor.png), auto;
 }
 
 .smile-cursor {
@@ -130,7 +130,7 @@ body {
 }
 
 .smile-cursor {
-  cursor: url(/entries/entry4/final/img/smile-cursor.png), auto;
+  cursor: url(menu/entries/entry4/final/img/smile-cursor.png), auto;
 }
 
 
