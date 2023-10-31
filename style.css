@@ -1,149 +1,192 @@
-h1{
-  font-family: "bely-display", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 200px;
-  color: rgb(53, 80, 0);
-  text-align: center; 
-  letter-spacing: 0px;
-  word-spacing: -20px;
-  line-height: 160px;
-  margin: 10px
-}
-
-.section-heading {
-  font-family: "bely", serif;
-  font-weight: 700;
-  font-style: normal;
-  color: rgb(13, 0, 190);
-  font-size: 50px;
-  text-align: center; 
-}
-
-.section-heading span {
-  color: rgb(146, 0, 0);
-}
-
-.section-heading2 {
-  font-family: "bely", serif;
-  font-weight: 700;
-  font-style: normal;
-  color: rgb(146, 0, 0);
-  font-size: 50px;
-  text-align: right; 
-  letter-spacing :-3px;
-}
-
-.item {
+* {
+  padding: 0px;
   margin: 0px;
-  width: 100%;
-  height: 50px;
 }
 
-.item1 {
-  background-color: #ffffff;
-  transition: opacity 0.5s ease-in-out;
-}
-.item1:hover {
-  background: rgb(154, 0, 0);
-  transition: opacity 0.5s ease-in-out;
+header {
+font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+text-transform: uppercase;
+display: block;
+font-size: 80px;
+text-align: center;
+
+-webkit-text-stroke: white;
 }
 
-.item2 {
-  background-color:  #ffffff;
-}
-.item2:hover {
-  background: rgb(7, 52, 213);
-  transition: opacity 0.5s ease-in-out;
-}
-
-.item3 {
-  background-color:  #ffffff;
-
-}
-.item3:hover {
-  background: rgb(154, 0, 0);
-  transition: opacity 0.5s ease-in-out;
-}
-
-.item4 {
-  background-color:  #ffffff;
-}
-.item4:hover {
-  background: rgb(7, 52, 213);
-  transition: opacity 0.5s ease-in-out;
-}
-
-.item5 {
-  background-color:  #ffffff;
-}
-.item5:hover {
-  background: rgb(154, 0, 0);
-  transition: opacity 0.5s ease-in-out;
-}
-
-.item6 {
-  background-color:  #ffffff;
-}
-.item6:hover {
-  background: rgb(7, 52, 213);
-  transition: opacity 0.5s ease-in-out;
-}
-
-
-/* Tablet breakpoint */
-@media (min-width: 768px) {
-  .container3 {
-    grid-template-columns: 1fr 1fr; 
-    column-gap: 10px; 
-    row-gap: 10px; 
-}
+.gradient-fill {
+  background: rgb(21, 19, 0);
+  background: radial-gradient(circle, rgba(251,233,63,1) 0%, rgba(252,70,70,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
   
-}
-
-/* Desktop breakpoint */
-@media (min-width: 992px) {
-  .container3 {
-  grid-template-columns: 1fr 1fr 1fr; 
-  column-gap: 10px; 
-  row-gap: 10px; 
-}
-
-}
-
-
-/* Desktop breakpoint */
-@media (min-width: 1240px) {
-  .container3 {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
-  column-gap: 10px; 
-  row-gap: 10px; 
-}
-
-}
-
-
-
-/* Wide screen breakpoint */
-@media (min-width: 1500px) {
-
-  .container3 {
-    grid-template-columns: repeat(6, 1fr); 
-    column-gap: 10px; 
-    row-gap: 10px; 
-}
+  }
   
+  .gradient-fill:hover {
+  background: rgb(63,240,251);
+  background: radial-gradient(circle, rgba(63,240,251,1) 0%, rgba(70,98,252,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  }
+
+h2 {
+font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+text-transform: uppercase;
+display: block;
+font-size: 50px;
+text-align: center;
 }
 
-
-em {
-  font-family: "bely", serif;
+h3 {
+  font-family: "courage", sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 30px;
-  text-align: left; 
-  letter-spacing :-1px;
-  word-spacing:-1px;
-  line-height:70px;
-  margin: 0
+display: block;
+font-size: 50px;
+text-align: center;
+color:#004813;;
 }
+
+h4 {
+font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+text-transform: uppercase;
+display: block;
+font-size: 20px;
+text-align: center;
+color:#ffffff;;
+}
+
+h5 {
+font-family: Tahoma;
+display: block;
+font-size: 30px;
+text-align: center;
+color:#ffffff;;
+}
+
+body {
+  font-family: arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.4;
+  background-image: url("/Users/ddoazoo/Desktop/jangj864.github.io/img/mall.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+font-family: Tahoma;
+max-width: 1000px;
+padding: 100px 30px;
+margin: auto;
+font-weight: 300;
+}
+
+.content p {
+font-family: Tahoma;
+margin-bottom: 80px;
+position: relative;
+}
+
+
+.allcaps {
+font-family: Tahoma;
+font-size: 37px;
+letter-spacing: 2px;
+}
+
+
+.long-way {
+font-family: Tahoma;
+font-style: italic;
+transition: all 10s ease-in-out;
+color: #ffffff;
+}
+
+.long-way:hover {
+font-family: Tahoma;
+cursor: pointer;
+font-size: 2em;
+}
+
+.simplelink {
+font-family: Tahoma;
+text-decoration: none;
+color: #000;
+background-color: #f2e1ff;
+transition: all 0.1s ease;
+}
+
+.simplelink:hover {
+font-family: Tahoma;
+background-color: pink;
+}
+
+.sad-cursor {
+color: rgb(255, 91, 91);
+}
+
+.sad-cursor {
+cursor: url(/Users/ddoazoo/Desktop/jangj864.github.io/img/sad-cursor.png), auto;
+}
+
+.smile-cursor {
+color: rgb(91, 146, 255);
+}
+
+.smile-cursor {
+cursor: url(/Users/ddoazoo/Desktop/jangj864.github.io/img/smile-cursor.png), auto;
+}
+
+
+.regretful {
+background-color: #bd2727;
+-webkit-animation: none;
+-moz-animation: none;
+animation: none;
+}
+
+.regretful:hover {
+cursor: pointer;
+background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+background-size: 1000% 1000%;
+
+-webkit-animation: slideBackground 2s ease infinite;
+-moz-animation: slideBackground 2s ease infinite;
+animation: slideBackground 2s ease infinite;
+}
+
+.satisfied {
+background-color: #2747bd;
+-webkit-animation: none;
+-moz-animation: none;
+animation: none;
+}
+
+.satisfied:hover {
+cursor: pointer;
+background: linear-gradient(270deg, #0800ff, #36e4ff, #a4f1ff, #6bf51d, #06e854);
+background-size: 1000% 1000%;
+
+-webkit-animation: slideBackground 2s ease infinite;
+-moz-animation: slideBackground 2s ease infinite;
+animation: slideBackground 2s ease infinite;
+}
+
+  @-webkit-keyframes slideBackground {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes slideBackground {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes slideBackground {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }

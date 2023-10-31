@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: HoneyDew;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:ForestGreen;
+    font-size: 110px;
+}
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:mediumseagreen;
+    font-size: 52px;
+}
+em {
+    font-family: Times New Roman, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:OliveDrab;
+    font-size: 20px;
+}
+p1 {
+    font-family: arial;
+    color: SeaGreen;
+    font-size: 30px;
+}
+h3 {
+    font-family: Helvetica, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:DarkSlateGrey(0, 45, 20);
+    font-size: 22px;
+    
+}
+  
+h4 {
+    font-family: Garamond 'Arial Narrow Bold', sans-serif;
+    color:Crimson;
+    font-size: 13px;
+}
+
+h5 {
+    font-family: Garamond 'Arial Narrow Bold', sans-serif;
+    color:Navy;
+    font-size: 13px;
+}
+
+h6 {
+    font-family: Garamond 'Arial Narrow Bold', sans-serif;
+    color:Brown;
+    font-size: 13px;
+}
+
+.checkbox-container {
+    background-color: #f0f0f0; 
+    padding: 10px; 
+    text-align: left; 
+  }
+
+  .uber-section {
+    background-color: #f5fff5; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: darkolivegreen;
+  }
+
+h1, h2, h3, h6, p {
+    margin: 0;
+  }
+  
+  pre {
+    white-space: pre;
+  }
+  
