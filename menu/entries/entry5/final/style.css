@@ -1,7 +1,7 @@
 body {
   background-color: lavender;
   height: 200vh;
-  cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
+  cursor: url('menu/entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 h1 {
