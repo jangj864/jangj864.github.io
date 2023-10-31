@@ -17,6 +17,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: url('menu/entries/entry5/final/img/fingercursor.png'), auto;
+}
 }
 
 html,
