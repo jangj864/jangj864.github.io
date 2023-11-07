@@ -1,3 +1,7 @@
+.cursor {
+  cursor: url('menu/entries/entry5/final/img/fingercursor.png'), auto;
+}
+
 .gradient-fill {
   background: rgb(21, 19, 0);
   background: radial-gradient(circle, rgba(251,233,63,1) 0%, rgba(252,70,70,1) 100%);
@@ -97,7 +101,7 @@ background-color: pink;
 
 
 .regretful {
-background-color: #bd2727;
+background-color: #cb64ff;
 -webkit-animation: none;
 -moz-animation: none;
 animation: none;
@@ -105,7 +109,7 @@ animation: none;
 
 .regretful:hover {
 cursor: pointer;
-background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+background: linear-gradient(270deg, #540051, #ff36d0, #d900ff, #b067ff, #5506e8);
 background-size: 1000% 1000%;
 
 -webkit-animation: slideBackground 2s ease infinite;
@@ -114,7 +118,7 @@ animation: slideBackground 2s ease infinite;
 }
 
 .satisfied {
-background-color: #2747bd;
+background-color: #ff8800;
 -webkit-animation: none;
 -moz-animation: none;
 animation: none;
@@ -122,7 +126,7 @@ animation: none;
 
 .satisfied:hover {
 cursor: pointer;
-background: linear-gradient(270deg, #0800ff, #36e4ff, #a4f1ff, #6bf51d, #06e854);
+background: linear-gradient(270deg, #ff7300, #ffb300, #ff9d00, #ffc228, #ffae0c);
 background-size: 1000% 1000%;
 
 -webkit-animation: slideBackground 2s ease infinite;
