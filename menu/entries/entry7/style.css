@@ -1,0 +1,490 @@
+.cursor {
+	cursor: url('menu/entries/entry6/final/img/cursor.png'), auto;
+}
+
+* {box-sizing:  border-box;}
+
+body {
+   font-size: 15px;
+   background-color: #a0dfff;
+  }
+
+.mainlogo {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin-top: -100px;
+  margin-bottom: -100px;
+  padding-bottom: -300px;
+
+}
+
+.sublogo {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin-top: -310px;
+  margin-bottom: -100px;
+  padding-top: -300px;
+  padding-bottom: -300px;
+}
+
+.wallet {
+  width: 100%;
+  height: 100%;
+  max-width: 30%;
+  margin-top: -230px;
+  margin-left: 35%;
+  margin-right: 50%;
+  margin-bottom: -300px;
+  padding-top: -300px;
+  padding-bottom: -3000px;
+  position: absolute;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: rotate(-40deg);
+  }
+  20%, 40%, 60%, 80% {
+    transform: rotate(40deg);
+  }
+}
+
+.shaking-element {
+  animation: shake 6s infinite;
+  transform-origin: center; /* This keeps one vertex fixed */
+}
+
+
+.coin1{
+  height: 196px;
+  top: 920px;
+  position: absolute;
+  width: 223px;
+  margin:0 auto;
+  left: 80%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+}
+
+.coin2{
+  height: 140px;
+  top: 1299px;
+  position: absolute;
+  width: 128px;
+  margin:0 auto;
+  left:60%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+}
+
+.coin3{
+  height: 75px;
+  top: 1474px;
+  position: absolute;
+  width: 223px;
+  margin:0 auto;
+  left:50%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+}
+
+.coin4{
+  height: 128px;
+  top: 2578px;
+  position: absolute;
+  width: 140px;
+  margin:0 auto;
+  left: 30%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+}
+
+.coin5{
+  height: 177px;
+  top: 2574px;
+  position: absolute;
+  width: auto;
+  margin:0 auto;
+  left: 60%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+}
+
+.coin6{
+  height: 144px;
+  top: 2976px;
+  position: absolute;
+  width: auto;
+  margin:0 auto;
+  left:10%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+}
+
+.coin7{
+  height: 101px;
+  top: 3292px;
+  position: absolute;
+  width: auto;
+  margin:0 auto;
+  left:20%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+}
+
+.money1 {
+  position: absolute;
+  width: 212px;
+  height: 357px;
+  top: 1246px;
+  left: 20%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+}
+
+.money2 {
+  position: absolute;
+  width: 220px;
+  height: 208px;
+  top: 3446px;
+  left: 20%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+}
+
+.money3 {
+  position: absolute;
+  width: 300px;
+  height: 269px;
+  top: 2811px;
+  left: 30%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+}
+
+.money4 {
+  position: absolute;
+  width: 210px;
+  height: 304px;
+  top: 2065px;
+  left: 70%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+  padding-bottom: 300px;
+}
+
+.money5 {
+  position: absolute;
+  width: 251px;
+  height: 286px;
+  top: 1742px;
+  left: 49%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+  padding-bottom: 300px;
+}
+
+.money6 {
+  position: absolute;
+  width: 265px;
+  height: 1345px;
+  top: 2206px;
+  left: 50%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+  padding-bottom: 300px;
+}
+
+.money7 {
+  position: absolute;
+  width: 294px;
+  height: 381px;
+  top: 2820px;
+  left: 80%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+  padding-bottom: 300px;
+}
+
+.money8 {
+  position: absolute;
+  width: 294px;
+  height: 381px;
+  top: 3120px;
+  left: 80%;
+  transform:translateX(-70%);
+  -webkit-transform:translateX(-56.5%);
+  padding-bottom: 300px;
+}
+
+.calipo {
+  width: 50%;
+  max-width: 50%;
+  margin-top: 310px;
+  margin-bottom: -700px;
+  margin-left: 10%;
+  padding-top: -300px;
+  padding-bottom: -900px;
+  padding-right: 90%;
+}
+
+@keyframes slideDown1 {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(2600px);
+  }
+}
+
+.calipo.animated-element {
+  animation-name: slideDown1;
+  animation-duration: 4s;
+}
+
+.noodle {
+  width: 50%;
+  max-width: 50%;
+  margin-top: 310px;
+  margin-bottom: -100px;
+  margin-left: 65%;
+  margin-right: 40%;
+  padding-top: -300px;
+  padding-bottom: -300px;
+}
+
+@keyframes slideDown2 {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(2650px);
+  }
+}
+
+.noodle.animated-element {
+  animation-name: slideDown2;
+  animation-duration: 4.5s;
+}
+
+.airpods {
+  width: 50%;
+  max-width: 50%;
+  margin-top: auto;
+  margin-bottom: -100px;
+  margin-left: 5%;
+  padding-top: -300px;
+  padding-bottom: -300px;
+}
+
+@keyframes slideDown3 {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(2400px);
+  }
+}
+
+.airpods.animated-element {
+  animation-name: slideDown3;
+  animation-duration: 5s;
+}
+
+
+.corn {
+  width: 50%;
+  max-width: 50%;
+  margin-top: 310px;
+  margin-bottom: -100px;
+  margin-left: 60%;
+  margin-right: 40%;
+  padding-top: -300px;
+  padding-bottom: -300px;
+}
+
+@keyframes slideDown4 {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(1700px);
+  }
+}
+
+.corn.animated-element {
+  animation-name: slideDown4;
+  animation-duration: 5.5s;
+}
+
+.purple {
+  width: 50%;
+  max-width: 50%;
+  margin-top: -515px;
+  margin-bottom: -100px;
+  margin-left: 3%;
+  padding-top: -300px;
+  padding-bottom: -300px;
+  position: relative;
+}
+
+.yellow {
+  width: 50%;
+  max-width: 50%;
+  margin-top: -515px;
+  margin-bottom: 500px;
+  margin-left: 55%;
+  margin-right: 40%;
+  padding-top: -300px;
+  padding-bottom: -300px;
+  position: relative;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 1000px; /* 이미지 최대 너비 지정 */
+}
+
+
+body {
+  width: auto;
+  height: auto;
+  max-width: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Ensure images don't exceed their container */
+}
+
+
+@media (min-width: 0px) {
+  .body {
+
+  }
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 750px;
+ }
+ .mainlogo {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin-top: -100px;
+  margin-bottom: -400px;
+  padding-bottom: -300px;
+
+}
+.sublogo {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin-top: -10px;
+  margin-bottom: -30px;
+  padding-top: -300px;
+  padding-bottom: -700px;
+}
+ .wallet {
+  width: 100%;
+  height: 100%;
+  max-width: 30%;
+  margin-top: -500px;
+  margin-left: 35%;
+  margin-right: 50%;
+  margin-bottom: -300px;
+  padding-top: -300px;
+  padding-bottom: -3000px;
+  position: relative;
+}
+}
+
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  .body {
+
+  }
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 750px;
+ }
+ .sublogo {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin-top: -30px;
+  margin-bottom: -500px;
+  padding-top: -300px;
+  padding-bottom: -800px;
+}
+ .wallet {
+  width: 100%;
+  height: 100%;
+  max-width: 30%;
+  margin-top: -100px;
+  margin-left: 35%;
+  margin-right: 50%;
+  margin-bottom: -300px;
+  padding-top: -300px;
+  padding-bottom: -3000px;
+  position: relative;
+}
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  .body {
+
+  }
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 750px;
+  }
+  .mainlogo {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin-top: -100px;
+    margin-bottom: -100px;
+    padding-bottom: -300px;
+  
+  }
+  
+  .sublogo {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin-top: -310px;
+    margin-bottom: -300px;
+    padding-top: -300px;
+    padding-bottom: -300px;
+  }
+  
+
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+
+  }
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 1000px; /* 이미지 최대 너비 지정 */
+  }
+}
+
