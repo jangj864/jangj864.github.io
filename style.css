@@ -27,7 +27,7 @@ font-family: Tahoma;
 margin-bottom: 80px;
 position: relative;
 color: white;
-text-shadow: #000;
+text-shadow: 1px 1px 2px rgb(255, 119, 0), 0 0 1em rgb(204, 0, 255), 0 0 0.2em 
 }
 
 
