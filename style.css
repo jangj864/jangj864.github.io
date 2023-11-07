@@ -4,7 +4,7 @@
 
 .gradient-fill {
   background: rgb(21, 19, 0);
-  background: radial-gradient(circle, rgba(251,233,63,1) 0%, rgba(252,70,70,1) 100%);
+  background: radial-gradient(circle, rgba(251,233,63,1) 0%, rgb(255, 100, 17) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.8s ease;
@@ -13,7 +13,7 @@
   
   .gradient-fill:hover {
   background: rgb(63,240,251);
-  background: radial-gradient(circle, rgba(63,240,251,1) 0%, rgba(70,98,252,1) 100%);
+  background: radial-gradient(circle, rgba(63,240,251,1) 0%, rgb(206, 70, 252) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
