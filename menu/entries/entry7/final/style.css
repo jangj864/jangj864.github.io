@@ -244,7 +244,7 @@ body {
 
 .calipo.animated-element {
   animation-name: slideDown1 ;
-  animation-duration: 4s infinite;
+  animation-duration: 4s ;
 }
 
 .noodle {
@@ -269,7 +269,7 @@ body {
 
 .noodle.animated-element {
   animation-name: slideDown2;
-  animation-duration: 4.5s infinite;
+  animation-duration: 4.5s ;
 }
 
 .airpods {
@@ -293,7 +293,7 @@ body {
 
 .airpods.animated-element {
   animation-name: slideDown3;
-  animation-duration: 5s infinite;
+  animation-duration: 5s ;
 }
 
 
@@ -318,7 +318,7 @@ body {
 }
 
 .corn.animated-element {
-  animation-name: slideDown4 infinite;
+  animation-name: slideDown4 ;
   animation-duration: 5.5s;
 }
 

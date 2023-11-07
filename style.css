@@ -1,19 +1,3 @@
-* {
-  padding: 0px;
-  margin: 0px;
-}
-
-header {
-font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
-text-transform: uppercase;
-display: block;
-font-size: 80px;
-text-align: center;
-letter-spacing: 0px;
-word-spacing: -25px
-
-}
-
 .gradient-fill {
   background: rgb(21, 19, 0);
   background: radial-gradient(circle, rgba(251,233,63,1) 0%, rgba(252,70,70,1) 100%);
@@ -31,39 +15,25 @@ word-spacing: -25px
   cursor: pointer;
   }
 
-h2 {
-font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
-text-transform: uppercase;
-display: block;
-font-size: 50px;
-text-align: center;
-}
-
 h3 {
-  font-family: "courage", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-display: block;
-font-size: 50px;
-text-align: center;
-color:#004813;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+  text-transform: uppercase;  
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  color:#004813;
 }
-
-h4 {
-font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
-text-transform: uppercase;
-display: block;
-font-size: 20px;
-text-align: center;
-color:#ffffff;;
+a:link {
+  color : green;
 }
-
-h5 {
-font-family: Tahoma;
-display: block;
-font-size: 30px;
-text-align: center;
-color:#ffffff;;
+a:visited {
+  color : black;
+}
+a:hover {
+  color : orange;
+}
+a:active {
+  color : purple;
 }
 
 body {
@@ -125,22 +95,6 @@ font-family: Tahoma;
 background-color: pink;
 }
 
-.sad-cursor {
-color: rgb(255, 91, 91);
-}
-
-.sad-cursor {
-cursor: url(img/sad-cursor.png), auto;
-}
-
-.smile-cursor {
-color: rgb(91, 146, 255);
-}
-
-.smile-cursor {
-cursor: url(img/smile-cursor.png), auto;
-}
-
 
 .regretful {
 background-color: #bd2727;
@@ -190,4 +144,52 @@ animation: slideBackground 2s ease infinite;
       0%{background-position:0% 50%}
       50%{background-position:100% 50%}
       100%{background-position:0% 50%}
+  }
+
+  body {
+    font-size: 15px;
+    /* Other mobile styles here */
+  }
+
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 1000px; /* 이미지 최대 너비 지정 */
+  }
+  
+  /* Tablet breakpoint */
+  @media (min-width: 768px) {
+    .body {
+      font-size: 5px;
+    }
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      max-width: 750px;
+   }
+}
+  
+  /* Desktop breakpoint */
+  @media (min-width: 992px) {
+    .body {
+      font-size: 10px;
+    }
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      max-width: 750px;
+    }
+  }
+  
+  /* Wide screen breakpoint */
+  @media (min-width: 1200px) {
+    body {
+      font-size: 15px;
+    }
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      max-width: 1000px; /* 이미지 최대 너비 지정 */
+    }
+  
   }
