@@ -2,44 +2,6 @@
   cursor: url('menu/entries/entry5/final/img/fingercursor.png'), auto;
 }
 
-.gradient-fill {
-  background: rgb(21, 19, 0);
-  background: radial-gradient(circle, rgba(251,233,63,1) 0%, rgb(255, 100, 17) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.8s ease;
-  
-  }
-  
-  .gradient-fill:hover {
-  background: rgb(63,240,251);
-  background: radial-gradient(circle, rgba(63,240,251,1) 0%, rgb(206, 70, 252) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  cursor: pointer;
-  }
-
-h3 {
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
-  text-transform: uppercase;  
-  display: block;
-  font-size: 30px;
-  text-align: center;
-  color:#004813;
-}
-a:link {
-  color : green;
-}
-a:visited {
-  color : black;
-}
-a:hover {
-  color : orange;
-}
-a:active {
-  color : purple;
-}
-
 body {
   font-family: arial, sans-serif;
   text-align: center;
@@ -98,7 +60,6 @@ transition: all 0.1s ease;
 font-family: Tahoma;
 background-color: pink;
 }
-
 
 .regretful {
 background-color: #cb64ff;
