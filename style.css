@@ -1,6 +1,3 @@
-.cursor {
-  cursor: url('menu/entries/entry5/final/img/fingercursor.png'), auto;
-}
 
 body {
   font-family: arial, sans-serif;
@@ -11,6 +8,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.sublogo {
+  cursor: url('menu/entries/entry5/final/img/fingercursor.png'), auto;
 }
 
 .content {
