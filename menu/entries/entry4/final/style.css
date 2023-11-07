@@ -98,27 +98,27 @@ body {
 
 .simplelink:hover {
   font-family: Tahoma;
-  background-color: pink;
+  background-color: rgb(255, 136, 0);
 }
 
 .gradient-fill {
-  background: rgb(251,233,63);
-  background: radial-gradient(circle, rgba(251,233,63,1) 0%, rgba(252,70,70,1) 100%);
+  background: rgb(142, 0, 135);
+  background: radial-gradient(circle, rgb(223, 63, 251) 0%, rgb(255, 104, 250) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.8s ease;
 }
 
 .gradient-fill:hover {
-  background: rgb(63,240,251);
-  background: radial-gradient(circle, rgba(63,240,251,1) 0%, rgba(70,98,252,1) 100%);
+  background: rgb(251, 154, 63);
+  background: radial-gradient(circle, rgb(255, 126, 6) 0%, rgb(255, 139, 31) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
 
 .sad-cursor {
-  color: rgb(255, 91, 91);
+  color: rgb(157, 28, 255);
 }
 
 .sad-cursor {
@@ -126,7 +126,7 @@ body {
 }
 
 .smile-cursor {
-  color: rgb(91, 146, 255);
+  color: rgb(255, 144, 26);
 }
 
 .smile-cursor {
@@ -135,7 +135,7 @@ body {
 
 
 .regretful {
-  background-color: #bd2727;
+  background-color: #a200ff;
   -webkit-animation: none;
   -moz-animation: none;
   animation: none;
@@ -143,7 +143,7 @@ body {
 
 .regretful:hover {
   cursor: pointer;
-  background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+  background: linear-gradient(270deg, #ff00f5, #be6aff, #f2a4ff, #78078f, #ea00ff);
   background-size: 1000% 1000%;
 
   -webkit-animation: slideBackground 2s ease infinite;
@@ -152,7 +152,7 @@ body {
 }
 
 .satisfied {
-  background-color: #2747bd;
+  background-color: #ff7b00;
   -webkit-animation: none;
   -moz-animation: none;
   animation: none;
@@ -160,7 +160,7 @@ body {
 
 .satisfied:hover {
   cursor: pointer;
-  background: linear-gradient(270deg, #0800ff, #36e4ff, #a4f1ff, #6bf51d, #06e854);
+  background: linear-gradient(270deg, #ffa200, #ffda36, #ffdfa4, #f5b11d, #e8a406);
   background-size: 1000% 1000%;
 
   -webkit-animation: slideBackground 2s ease infinite;
@@ -228,6 +228,6 @@ transition: all 0.5s ease;
 }
 
 .alternate:nth-child(odd):hover {
-  background-color: rgb(182, 0, 0);
+  background-color: rgb(170, 0, 182);
   cursor: pointer;
 }
