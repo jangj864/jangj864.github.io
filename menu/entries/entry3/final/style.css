@@ -29,20 +29,20 @@ em {
   font-family: "supersize-bk-box", sans-serif;
   font-weight: 400;
   font-style: italic;
-  color: rgb(13, 0, 190);
+  color: rgb(255, 140, 0);
   font-size: 100px;
   text-align: center; 
 }
 
 .section-heading span {
-  color: rgb(146, 0, 0);
+  color: rgb(110, 0, 146);
 }
 
 .section-heading2 {
   font-family: "supersize-bk", sans-serif;
   font-weight: 400;
   font-style: italic;
-  color: rgb(146, 0, 0);
+  color: rgb(110, 0, 146);
   font-size: 50px;
   text-align: right; 
   letter-spacing :-3px;
@@ -51,7 +51,7 @@ em {
   font-family: "supersize-bk", sans-serif;
   font-weight: 400;
   font-style: italic;
-  color: rgb(13, 0, 190);
+  color: rgb(255, 140, 0);
   font-size: 50px;
   text-align: right; 
   letter-spacing :-3px;
