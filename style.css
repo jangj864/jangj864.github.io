@@ -12,6 +12,7 @@ body {
 
 .sublogo {
   cursor: url('menu/entries/entry5/final/img/fingercursor.png'), auto;
+  filter: drop-shadow(0.1rem 0.1rem 15px);
 }
 
 .content {
