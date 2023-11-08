@@ -8,15 +8,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.sublogo {
   cursor: url('/img/fingercursor.png'), auto;
-  filter: drop-shadow(1rem 1rem 15px);
-}
-.sublogo:hover {
-  color: rgb(84, 84, 84);
-  transition: opacity s5s ease-in-out;
 }
 
  .entry {
@@ -83,7 +75,7 @@ body {
       height: auto;
       max-width: 750px;
    }
-
+  }
    .entry {
     grid-template-columns: 1fr 1fr 1fr; 
     column-gap: 5px; 
