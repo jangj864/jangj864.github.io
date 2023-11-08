@@ -231,30 +231,33 @@ transition: all 0.5s ease;
   background-color: rgb(170, 0, 182);
   cursor: pointer;
 }
-@media (min-width: 0px) {
-  .body {    width: 100%;
-    height: auto;
-  }
-}
 
-/* Tablet breakpoint */
-@media (min-width: 768px) {
-  .body {    width: 100%;
-    height: auto;
-  }
-}
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+    header, h2, h3, h4 {
+        font-size: 1.5em; 
+    }
 
-/* Desktop breakpoint */
-@media (min-width: 992px) {
-  .body {    width: 100%;
-    height: auto;
+    h5, body{
+      font-size: 0.5em; 
   }
+  
+  .fakelink {
+    font-size: 1em; 
+}
 
 }
 
-/* Wide screen breakpoint */
-@media (min-width: 1200px) {
-  .body {    width: 100%;
-    height: auto;
-  }
+.content {
+    font-family: Tahoma;
+    max-width: 1000px;
+    padding: 4.17em 1em; 
+    margin: auto;
+    font-weight: 300;
+}
+
+.content p {
+    font-family: Tahoma;
+    margin-bottom: 2em; 
+    position: relative;
 }
