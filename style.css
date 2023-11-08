@@ -141,7 +141,7 @@ animation: slideBackground 2s ease infinite;
   }
   
   .item1 {
-    background-color: #ffffff;
+    background-color: #ffffffad;
     transition: opacity 0.5s ease-in-out;
   }
   .item1:hover {
