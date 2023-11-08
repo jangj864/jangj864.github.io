@@ -4,7 +4,7 @@ body {
   text-align: center;
   font-size: 30px;
   line-height: 1.4;
-  background-image: url("img/mall3.jpg");
+  background-color: #000000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,106 +18,6 @@ body {
   color: rgb(84, 84, 84);
   transition: opacity s5s ease-in-out;
 }
-
-.content {
-font-family: Tahoma;
-max-width: 800px;
-padding: 100px 30px;
-margin: auto;
-font-weight: 300;
-}
-
-.content p {
-font-family: Tahoma;
-margin-bottom: 80px;
-position: relative;
-color: white;
-text-shadow: 1px 1px 2px rgb(255, 119, 0), 0 0 1em rgb(204, 0, 255), 0 0 0.2em 
-}
-
-
-.allcaps {
-font-family: Tahoma;
-font-size: 37px;
-letter-spacing: 2px;
-}
-
-
-.long-way {
-font-family: Tahoma;
-font-style: italic;
-transition: all 10s ease-in-out;
-color: #ffffff;
-}
-
-.long-way:hover {
-font-family: Tahoma;
-cursor: pointer;
-font-size: 2em;
-}
-
-.simplelink {
-font-family: Tahoma;
-text-decoration: none;
-color: #000;
-background-color: #f2e1ff;
-transition: all 0.1s ease;
-}
-
-.simplelink:hover {
-font-family: Tahoma;
-background-color: pink;
-}
-
-.regretful {
-background-color: #cb64ff;
--webkit-animation: none;
--moz-animation: none;
-animation: none;
-}
-
-.regretful:hover {
-cursor: pointer;
-background: linear-gradient(270deg, #540051, #ff36d0, #d900ff, #b067ff, #5506e8);
-background-size: 1000% 1000%;
-
--webkit-animation: slideBackground 2s ease infinite;
--moz-animation: slideBackground 2s ease infinite;
-animation: slideBackground 2s ease infinite;
-}
-
-.satisfied {
-background-color: #ff8800;
--webkit-animation: none;
--moz-animation: none;
-animation: none;
-}
-
-.satisfied:hover {
-cursor: pointer;
-background: linear-gradient(270deg, #ff7300, #ffb300, #ff9d00, #ffc228, #ffae0c);
-background-size: 1000% 1000%;
-
--webkit-animation: slideBackground 2s ease infinite;
--moz-animation: slideBackground 2s ease infinite;
-animation: slideBackground 2s ease infinite;
-}
-
-  @-webkit-keyframes slideBackground {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
-  }
-  @-moz-keyframes slideBackground {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
-  }
-  @keyframes slideBackground {
-      0%{background-position:0% 50%}
-      50%{background-position:100% 50%}
-      100%{background-position:0% 50%}
-  }
 
  .entry {
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
@@ -133,20 +33,26 @@ animation: slideBackground 2s ease infinite;
     margin: 0;
     padding: 0;
   }
+
+  .h3{
+    margin: -50px;
+    padding: -50px;
+  }
   
   .item {
     margin: 0px;
     width: 100%;
-    height: 210px;
+    height: 200px;
   }
   
   .item1 {
-    background-color: #ffffffad;
+    background-color: #ffffff00;
     transition: opacity 0.5s ease-in-out;
   }
   .item1:hover {
     color: rgb(157, 0, 255);
     transition: opacity 0.5s ease-in-out;
+    background-color: #ffffff00;
   }
   
   .item2 {
@@ -167,7 +73,24 @@ animation: slideBackground 2s ease infinite;
     height: auto;
     max-width: 1000px; /* 이미지 최대 너비 지정 */
   }
+
+  @media (min-width: 0px) {
+    .body {
+      font-size: 5px;
+    }
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      max-width: 750px;
+   }
+
+   .entry {
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap: 5px; 
+    row-gap: 0px; 
+   }
   
+
   /* Tablet breakpoint */
   @media (min-width: 768px) {
     .body {
@@ -180,9 +103,9 @@ animation: slideBackground 2s ease infinite;
    }
 
    .entry {
-    grid-template-columns: 1fr 1fr; 
-    column-gap: 10px; 
-    row-gap: 10px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ; 
+    column-gap: 5px; 
+    row-gap: 0px; 
    }
 }
   
@@ -197,9 +120,9 @@ animation: slideBackground 2s ease infinite;
       max-width: 750px;
     }
     .entry {
-      grid-template-columns: 1fr 1fr 1fr; 
-      column-gap: 10px; 
-      row-gap: 10px; 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+      column-gap: 5px; 
+      row-gap: 0px; 
     }
   }
   
@@ -215,9 +138,9 @@ animation: slideBackground 2s ease infinite;
     }
 
     .entry {
-      grid-template-columns: 1fr 1fr 1fr 1fr; 
-      column-gap: 10px; 
-      row-gap: 10px; 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+      column-gap: 5px; 
+      row-gap: 0px; 
     }
   }
 
@@ -225,9 +148,9 @@ animation: slideBackground 2s ease infinite;
 @media (min-width: 1500px) {
 
   .entry {
-    grid-template-columns: repeat(5, 1fr); 
-    column-gap: 10px; 
-    row-gap: 10px; 
+    grid-template-columns: repeat(10, 1fr); 
+    column-gap: 5px; 
+    row-gap: 0px; 
 }
   
 }
