@@ -231,3 +231,30 @@ transition: all 0.5s ease;
   background-color: rgb(170, 0, 182);
   cursor: pointer;
 }
+@media (min-width: 0px) {
+  .body {    width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  .body {    width: 100%;
+    height: auto;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  .body {    width: 100%;
+    height: auto;
+  }
+
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  .body {    width: 100%;
+    height: auto;
+  }
+}
