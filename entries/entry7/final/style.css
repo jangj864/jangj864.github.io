@@ -62,7 +62,7 @@ body {
 
 .coin1{
   height: 196px;
-  top: 920px;
+  top: 3920px;
   position: absolute;
   width: 223px;
   margin:0 auto;
@@ -193,7 +193,7 @@ body {
   position: absolute;
   width: 265px;
   height: 1345px;
-  top: 2206px;
+  top: 3706px;
   left: 50%;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
@@ -215,7 +215,7 @@ body {
   position: absolute;
   width: 294px;
   height: 381px;
-  top: 3120px;
+  top: 4120px;
   left: 80%;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
@@ -238,7 +238,7 @@ body {
     transform: translateY(-100%);
   }
   to {
-    transform: translateY(2600px);
+    transform: translateY(3400px);
   }
 }
 
@@ -263,7 +263,7 @@ body {
     transform: translateY(-100%);
   }
   to {
-    transform: translateY(2650px);
+    transform: translateY(3450px);
   }
 }
 
@@ -287,7 +287,7 @@ body {
     transform: translateY(100%);
   }
   to {
-    transform: translateY(2400px);
+    transform: translateY(3200px);
   }
 }
 
@@ -308,12 +308,13 @@ body {
   padding-bottom: -300px;
 }
 
+
 @keyframes slideDown4 {
   from {
     transform: translateY(-100%);
   }
   to {
-    transform: translateY(1700px);
+    transform: translateY(2500px);
   }
 }
 
@@ -344,6 +345,7 @@ body {
   padding-bottom: -300px;
   position: relative;
 }
+
 
 .responsive-image {
   width: 100%;
