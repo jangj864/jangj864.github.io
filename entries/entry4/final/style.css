@@ -246,8 +246,6 @@ transition: all 0.5s ease;
     font-size: 1em; 
 }
 
-}
-
 .content {
     font-family: Tahoma;
     max-width: 1000px;
@@ -260,4 +258,6 @@ transition: all 0.5s ease;
     font-family: Tahoma;
     margin-bottom: 2em; 
     position: relative;
+}
+
 }
