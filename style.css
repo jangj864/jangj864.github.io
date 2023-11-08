@@ -14,6 +14,10 @@ body {
   cursor: url('/img/fingercursor.png'), auto;
   filter: drop-shadow(1rem 1rem 15px);
 }
+.sublogo:hover {
+  color: rgb(84, 84, 84);
+  transition: opacity s5s ease-in-out;
+}
 
 .content {
 font-family: Tahoma;
