@@ -73,13 +73,12 @@ body {
 
 .coin2{
   height: 140px;
-  top: 1299px;
+  top: 999px;
   position: absolute;
   width: 128px;
   margin:0 auto;
   left:60%;
-  transform:translateX(-70%);
-  -webkit-transform:translateX(-56.5%);
+  transform: scale(0.5);
 }
 
 .coin3{
@@ -88,9 +87,10 @@ body {
   position: absolute;
   width: 223px;
   margin:0 auto;
-  left:50%;
+  left:90%;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
+  transform: scale(0.5);
 }
 
 .coin4{
@@ -106,11 +106,11 @@ body {
 
 .coin5{
   height: 177px;
-  top: 2574px;
+  top: 2974px;
   position: absolute;
   width: auto;
   margin:0 auto;
-  left: 60%;
+  left: 10%;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
 }
@@ -121,7 +121,7 @@ body {
   position: absolute;
   width: auto;
   margin:0 auto;
-  left:10%;
+  left:90%;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
 }
@@ -141,10 +141,11 @@ body {
   position: absolute;
   width: 212px;
   height: 357px;
-  top: 1246px;
+  top: 1046px;
   left: 20%;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
+  transform: scale(0.5);
 }
 
 .money2 {
@@ -155,38 +156,41 @@ body {
   left: 20%;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
+  transform: scale(0.5);
 }
 
 .money3 {
   position: absolute;
   width: 300px;
   height: 269px;
-  top: 2811px;
+  top: 1211px;
   left: 30%;
-  transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
+  transform: scale(0.2);
 }
 
 .money4 {
   position: absolute;
   width: 210px;
   height: 304px;
-  top: 2065px;
+  top: 4065px;
   left: 70%;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
   padding-bottom: 300px;
+  transform: scale(0.7);
+  
 }
 
 .money5 {
   position: absolute;
   width: 251px;
   height: 286px;
-  top: 1742px;
-  left: 49%;
+  top: 742px;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
   padding-bottom: 300px;
+  transform: scale(0.2);
 }
 
 .money6 {
@@ -198,6 +202,7 @@ body {
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
   padding-bottom: 300px;
+  
 }
 
 .money7 {
@@ -209,6 +214,7 @@ body {
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
   padding-bottom: 300px;
+    transform: scale(0.5);
 }
 
 .money8 {
@@ -216,61 +222,66 @@ body {
   width: 294px;
   height: 381px;
   top: 4120px;
-  left: 80%;
+  left: 90%;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
   padding-bottom: 300px;
 }
+
 
 .calipo {
   width: 50%;
   max-width: 50%;
   margin-top: 310px;
   margin-bottom: -700px;
-  margin-left: 10%;
+  margin-left: 1%;
   padding-top: -300px;
   padding-bottom: -900px;
-  padding-right: 90%;
+  padding-left: 1%;
+
 }
 
 @keyframes slideDown1 {
   from {
-    transform: translateY(-100%);
+    transform: translateY(-100%) scale(0.3);
   }
   to {
-    transform: translateY(3400px);
+    transform: translateY(3350px) scale(0.3);
+
   }
 }
 
 .calipo.animated-element {
-  animation-name: slideDown1 ;
-  animation-duration: 4s ;
+  animation-name: slideDown1;
+  animation-duration: 6s;
 }
 
 .noodle {
   width: 50%;
   max-width: 50%;
+  top: 2042px;
   margin-top: 310px;
   margin-bottom: -100px;
-  margin-left: 65%;
-  margin-right: 40%;
+  margin-left: 60%;
   padding-top: -300px;
   padding-bottom: -300px;
+  /* If there's a static transform, include it here */
 }
 
 @keyframes slideDown2 {
   from {
-    transform: translateY(-100%);
+    transform: translateY(-50%) scale(0.3); /* Include any static transform here, if necessary */
   }
   to {
-    transform: translateY(3450px);
+    transform: translateY(3240px) scale(0.3); /* Include any static transform here, if necessary */
   }
 }
 
 .noodle.animated-element {
   animation-name: slideDown2;
-  animation-duration: 4.5s ;
+  animation-duration: 6s;
 }
+
 
 .airpods {
   width: 50%;
@@ -284,23 +295,23 @@ body {
 
 @keyframes slideDown3 {
   from {
-    transform: translateY(100%);
+    transform: translateY(-50%) scale(0.3); /* Include any static transform here, if necessary */
   }
   to {
-    transform: translateY(3200px);
+    transform: translateY(2900px) scale(0.3); /* Include any static transform here, if necessary */
   }
 }
 
 .airpods.animated-element {
   animation-name: slideDown3;
-  animation-duration: 5s ;
+  animation-duration: 6s ;
 }
 
 
 .corn {
   width: 50%;
   max-width: 50%;
-  margin-top: 310px;
+  margin-top: 10px;
   margin-bottom: -100px;
   margin-left: 60%;
   margin-right: 40%;
@@ -310,13 +321,13 @@ body {
 
 
 @keyframes slideDown4 {
-  from {
-    transform: translateY(-100%);
+    from {
+      transform: translateY(-100%) scale(0.3); /* Include any static transform here, if necessary */
+    }
+    to {
+      transform: translateY(2490px) scale(0.3); /* Include any static transform here, if necessary */
+    }
   }
-  to {
-    transform: translateY(2500px);
-  }
-}
 
 .corn.animated-element {
   animation-name: slideDown4 ;
@@ -346,6 +357,11 @@ body {
   position: relative;
 }
 
+.convey{
+  transform: scale(0.3);
+  max-width: 1%;
+  left: 10%;
+}
 
 .responsive-image {
   width: 100%;
@@ -409,6 +425,14 @@ body {
   padding-bottom: -3000px;
   position: relative;
 }
+
+.purple, .yellow {
+  display: block;
+  width: 10%;
+  transform: scale(0.5);
+}
+
+
 }
 
 
@@ -443,6 +467,13 @@ body {
   padding-bottom: -3000px;
   position: relative;
 }
+
+.purple, .yellow {
+  display: block;
+  width: 100%;
+  transform: scale(0.8);
+}
+
 }
 
 /* Desktop breakpoint */
