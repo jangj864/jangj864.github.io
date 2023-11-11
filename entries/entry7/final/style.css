@@ -243,10 +243,10 @@ body {
 
 @keyframes slideDown1 {
   from {
-    transform: translateY(-100%) scale(0.3);
+    transform: translateY(-100%) scale(0.2);
   }
   to {
-    transform: translateY(3350px) scale(0.3);
+    transform: translateY(3350px) scale(0.2);
 
   }
 }
