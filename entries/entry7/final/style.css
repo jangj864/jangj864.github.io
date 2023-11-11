@@ -256,7 +256,7 @@ body {
   animation-duration: 6s;
 }
 
-.responsive-image.calipo_text {
+.calipo_text {
   transform: scale(0.3);
   margin-bottom: -300px;
   margin-right: 40%;
@@ -290,7 +290,7 @@ body {
   animation-duration: 6s;
 }
 
-.responsive-image.noodle_text {
+.noodle_text {
   transform: scale(0.3);
   margin-top : -500px;
   margin-bottom: -1100px;
@@ -308,7 +308,7 @@ body {
   padding-bottom: -300px;
 }
 
-.responsive-image.airpods_text {
+.airpods_text {
   transform: scale(0.3);
   margin-bottom: -300px;
   margin-top: -600px;
@@ -329,7 +329,7 @@ body {
   animation-duration: 6s ;
 }
 
-.responsive-image.corn_text {
+.corn_text {
   transform: scale(0.3);
   margin-top : -800px;
   margin-bottom: -1100px;
@@ -468,7 +468,6 @@ body {
 
 /* Tablet breakpoint */
 @media (min-width: 768px) {
-  
   .body {
 
   }
