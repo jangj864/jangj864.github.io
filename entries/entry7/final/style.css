@@ -1,5 +1,5 @@
 .cursor {
-	cursor: url('/menu/entries/entry7/final/finger.png'), auto;
+	cursor: url('/entries/entry7/final/img/finger.png'), auto;
 }
 
 * {box-sizing: border-box;}
@@ -99,7 +99,7 @@ body {
   position: absolute;
   width: 140px;
   margin:0 auto;
-  left: 30%;
+  left: 4%;
   transform:translateX(-70%);
   -webkit-transform:translateX(-56.5%);
 }
@@ -256,6 +256,14 @@ body {
   animation-duration: 6s;
 }
 
+.calipo_text {
+  transform: scale(0.3);
+  margin-bottom: -300px;
+  margin-right: 40%;
+  box-shadow: black 10px;
+  filter: drop-shadow(0 0 0.75rem black)
+}
+
 .noodle {
   width: 50%;
   max-width: 50%;
@@ -282,6 +290,13 @@ body {
   animation-duration: 6s;
 }
 
+.noodle_text {
+  transform: scale(0.3);
+  margin-top : -500px;
+  margin-bottom: -1100px;
+  margin-left: -500px;
+  filter: drop-shadow(0 0 0.75rem black)
+}
 
 .airpods {
   width: 50%;
@@ -291,6 +306,13 @@ body {
   margin-left: 5%;
   padding-top: -300px;
   padding-bottom: -300px;
+}
+
+.airpods_text {
+  transform: scale(0.3);
+  margin-bottom: -300px;
+  margin-top: -600px;
+  filter: drop-shadow(0 0 0.75rem black)
 }
 
 @keyframes slideDown3 {
@@ -305,6 +327,14 @@ body {
 .airpods.animated-element {
   animation-name: slideDown3;
   animation-duration: 6s ;
+}
+
+.corn_text {
+  transform: scale(0.3);
+  margin-top : -800px;
+  margin-bottom: -1100px;
+  margin-left: -500px;
+  filter: drop-shadow(0 0 0.75rem black)
 }
 
 
