@@ -246,7 +246,7 @@ body {
     transform: translateY(-100%) scale(0.2);
   }
   to {
-    transform: translateY(3350px) scale(0.2);
+    transform: translateY(3250px) scale(0.2);
 
   }
 }
@@ -281,7 +281,7 @@ body {
     transform: translateY(-50%) scale(0.3); /* Include any static transform here, if necessary */
   }
   to {
-    transform: translateY(3240px) scale(0.3); /* Include any static transform here, if necessary */
+    transform: translateY(2840px) scale(0.3); /* Include any static transform here, if necessary */
   }
 }
 
@@ -320,7 +320,7 @@ body {
     transform: translateY(-50%) scale(0.3); /* Include any static transform here, if necessary */
   }
   to {
-    transform: translateY(2900px) scale(0.3); /* Include any static transform here, if necessary */
+    transform: translateY(2500px) scale(0.3); /* Include any static transform here, if necessary */
   }
 }
 
@@ -355,7 +355,7 @@ body {
       transform: translateY(-100%) scale(0.3); /* Include any static transform here, if necessary */
     }
     to {
-      transform: translateY(2490px) scale(0.3); /* Include any static transform here, if necessary */
+      transform: translateY(1790px) scale(0.3); /* Include any static transform here, if necessary */
     }
   }
 
