@@ -24,7 +24,7 @@ $(document).ready(function() {
                              "<p class='weee-text2'><span>Stir-Fried Topokki</span> : Delicious but detrimental to diet.</p>"; 
                 
                 break;
-            case 5: textToShow = "<p class='parsons-text'><span>TNS Restaurants</span> : I ordered a pepperoni pizza, but although I was very hungry, the size was too small.</p>"; break;
+            case 5: textToShow = "<p class='parsons-text'><span>TNS Restaurants</span> : I ordered pepperoni pizza, but the size was too small.</p>"; break;
             case 6:
                 textToShow = "<p class='refresh-text'>Refresh to Restart!</p>";
                 // Move the block back to its original position

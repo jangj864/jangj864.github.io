@@ -1,6 +1,6 @@
 body {
-  background: rgb(2,0,36);
-  background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(0,26,215,1) 35%, rgba(0,212,255,1) 100%);
+  background: rgb(56,193,255);
+  background: linear-gradient(180deg, rgba(56,193,255,1) 0%, rgba(0,89,255,1) 100%);
   display: flex;
   flex-direction: column; /* Stack elements vertically */
   align-items: center; /* Center-align horizontally */
@@ -244,7 +244,7 @@ body {
     .responsive-image {
       width: 100%;
       height: auto;
-      max-width: 1000px; /* 이미지 최대 너비 지정 */
+      max-width: 900px; /* 이미지 최대 너비 지정 */
     }
 
     .target {
@@ -256,6 +256,11 @@ body {
 
 /* Wide screen breakpoint */
 @media (min-width: 1500px) {
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 900px; /* 이미지 최대 너비 지정 */
+  }
   .target {
     grid-template-columns: repeat(5, 1fr); 
     column-gap: 5px; 
