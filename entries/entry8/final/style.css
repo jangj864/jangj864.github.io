@@ -1,0 +1,146 @@
+body {
+  background: rgb(78,195,34);
+  background: linear-gradient(0deg, rgba(78,195,34,1) 0%, rgba(253,187,45,1) 100%);
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center-align horizontally */
+  justify-content: center; /* Center-align vertically */
+  min-height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.home-text {
+  font-family: 'Arial', sans-serif;
+  color: blue;
+  /* Add any additional styling you want */
+}
+
+.seven-eleven-text {
+  font-family: 'Verdana', sans-serif;
+  color: green;
+  /* Add any additional styling you want */
+}
+
+.cvs-text {
+  font-family: 'Times New Roman', serif;
+  color: red;
+  /* Add any additional styling you want */
+}
+
+.weee-text {
+  font-family: 'Georgia', serif;
+  color: purple;
+  /* Add any additional styling you want */
+}
+
+.parsons-text {
+  font-family: 'Helvetica', sans-serif;
+  color: orange;
+  /* Add any additional styling you want */
+}
+
+
+/* Center the images within their container */
+.shop {
+  display: flex;
+  flex-wrap: wrap; /* Allow the items to wrap as needed */
+  gap: 10px; /* Optional: space between items */
+  justify-content: center; /* Center-align the items */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+
+/* Style for the #block containing the man.png */
+#block {
+  position: relative; /* Use relative positioning */
+  left: -340px; /* Start 480px left of the center */
+  margin-top: 20px; /* Add some space above the block */
+}
+
+
+/* Style for the info div */
+#info {
+  text-align: center; /* Center-align the text */
+  margin: 20px 0; /* Add some space above and below the info text */
+}
+
+
+  @media (min-width: 0px) {
+    .body {
+      font-size: 5px;
+    }
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      max-width: 750px;
+   }
+   .shop {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    column-gap: 5px; 
+    row-gap: 0px; 
+   }
+}
+  
+
+  /* Tablet breakpoint */
+  @media (min-width: 768px) {
+    .body {
+      font-size: 5px;
+    }
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      max-width: 750px;
+   }
+
+   .shop {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    column-gap: 5px; 
+    row-gap: 0px; 
+   }
+}
+  
+  /* Desktop breakpoint */
+  @media (min-width: 992px) {
+    .body {
+      font-size: 10px;
+    }
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      max-width: 750px;
+    }
+    .shop {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+      column-gap: 5px; 
+      row-gap: 0px; 
+    }
+  }
+  
+  /* Wide screen breakpoint */
+  @media (min-width: 1200px) {
+    body {
+      font-size: 15px;
+    }
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      max-width: 1000px; /* 이미지 최대 너비 지정 */
+    }
+
+    .shop {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+      column-gap: 5px; 
+      row-gap: 0px; 
+    }
+  }
+
+/* Wide screen breakpoint */
+@media (min-width: 1500px) {
+
+  .shop {
+    grid-template-columns: repeat(6, 1fr); 
+    column-gap: 5px; 
+    row-gap: 0px; 
+}
+  
+}
