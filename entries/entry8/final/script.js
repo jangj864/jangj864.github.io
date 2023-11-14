@@ -35,10 +35,9 @@ $(document).ready(function() {
                 break;
         }
 
-        // Update the info div with the new text
-        $("#info").html(textToShow); // Use .html instead of .text when you're setting HTML content
+        $("#info").html(textToShow); 
 
-        // Calculate the new margin-left for the #block
+        
         if (clickCount < 6) {
             var dest = parseInt($("#block").css("margin-left").replace("px", "")) + 220;
             if (dest > 1320) {

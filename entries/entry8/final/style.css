@@ -2,11 +2,11 @@ body {
   background: rgb(56,193,255);
   background: linear-gradient(180deg, rgba(56,193,255,1) 0%, rgba(0,89,255,1) 100%);
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center-align horizontally */
-  justify-content: center; /* Center-align vertically */
-  min-height: 100vh; /* Full viewport height */
-  margin: 0; /* Remove default margin */
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  min-height: 100vh; 
+  margin: 0; 
     font-family: "owners-xnarrow", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -168,27 +168,27 @@ body {
 .target {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px; /* Adjust as needed */
+  gap: 5px; 
   justify-content: center;
 }
 
-.target > * { /* Assuming direct children of .target are the items */
-  flex: 0 0 calc(20% - 10px); /* Adjust '10px' to account for twice the gap size divided by the number of items */
-  max-width: calc(20% - 10px); /* Same calculation for maximum width */
+.target > * { 
+  flex: 0 0 calc(20% - 10px); 
+  max-width: calc(20% - 10px); 
 }
 
 /* Style for the #block containing the man.png */
 #block {
-  position: relative; /* Use relative positioning */
-  left: -340px; /* Start 480px left of the center */
-  margin-top: 20px; /* Add some space above the block */
+  position: relative; 
+  left: -340px; 
+  margin-top: 20px; 
 }
 
 
 /* Style for the info div */
 #info {
-  text-align: center; /* Center-align the text */
-  margin: 20px 0; /* Add some space above and below the info text */
+  text-align: center; 
+  margin: 20px 0; 
 }
 
   @media (min-width: 0px) {
@@ -217,7 +217,7 @@ body {
    }
 
    .target > * {
-    flex: 0 0 calc(20% - 5px); /* Adjust for smaller gaps on smaller screens */
+    flex: 0 0 calc(20% - 5px); 
     max-width: calc(20% - 5px);
   }
 }
