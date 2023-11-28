@@ -3,7 +3,7 @@
 .responsive-image {
   width: 100%;
   height: auto;
-  max-width: 500px; /* 이미지 최대 너비 지정 */
+  max-width: 500px;
   padding-bottom: 70px;
 }
 
@@ -301,7 +301,7 @@ section {
   .responsive-image {
     width: 100%;
     height: auto;
-    max-width: 800px; /* 이미지 최대 너비 지정 */
+    max-width: 800px; 
 }
 
 }
@@ -311,7 +311,7 @@ section {
   .responsive-image {
     width: 100%;
     height: auto;
-    max-width: 800px; /* 이미지 최대 너비 지정 */
+    max-width: 800px; 
 }
 
 }
