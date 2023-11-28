@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ['It was Regretful!', 'I expected Kiwi flavor', 'But it tastes like Cucumber', 'Definitely Regretful!'],
       ['It was Regretful!', 'I spilled water on my laptop', 'So there was no choice for me','I had to buy new one.', 'Definitely Regretful!'],
       ['It was Satisfied!', 'It tastes like sparkling Powerade', 'Way much better than Sparkling Cucumber.','Definitely satisfied!'],
-      ['It was Satisfied!', 'The price was affordable', 'and It was Delicious!','Definitely satisfied!']
+      ['It was Satisfied!', 'The price was affordable', 'And It was Delicious!','Definitely satisfied!']
     ];
     
     // Define a function to handle button clicks
