@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Define an array of messages for each button
     let messages = [
-      ['It was Regretful!', 'I expected Kiwi flavor', 'But it tastes like Cucumber', 'Definitely Regretful!'],
-      ['It was Regretful!', 'I spilled water on my laptop', 'So there was no choice for me','I had to buy new one.', 'Definitely Regretful!'],
-      ['It was Satisfied!', 'It tastes like sparkling Powerade', 'Way much better than Sparkling Cucumber.','Definitely satisfied!'],
-      ['It was Satisfied!', 'The price was affordable', 'And It was Delicious!','Definitely satisfied!']
+      ['It was Regrettable!', 'I expected a kiwi flavor', 'But it tasted like cucumber', 'Definitely Regrettable!'],
+      ['It was Regrettable!', 'I spilled water on my laptop', 'So I had no choice but to buy a new one', 'Definitely Regrettable!'],
+      ['It was Satisfying!', 'It tastes like sparkling POWERADE', 'Which was much better than sparkling cucumber', 'Definitely Satisfying!'],
+      ['It was Satisfying!', 'The price was affordable', 'And it was delicious!', 'Definitely Satisfying!']
     ];
     
     // Define a function to handle button clicks
