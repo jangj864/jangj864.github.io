@@ -66,6 +66,13 @@ body {
     max-width: 1000px; /* 이미지 최대 너비 지정 */
   }
 
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
   @media (min-width: 0px) {
     .body {
       font-size: 5px;
