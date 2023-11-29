@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #00ff00; /* Adjust the color code to match the exact green you want */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace; /* This gives you a monospaced font similar to the screenshot */
+    color: black; /* Adjust if you want a different font color */
+    font-size: 24px; /* Adjust to match the size in the screenshot */
+}
