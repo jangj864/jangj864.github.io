@@ -158,3 +158,10 @@ cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/d
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
 }
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #000000;
+  color: #ffffff;
+}
