@@ -184,6 +184,14 @@ body {
   margin-top: 20px; 
 }
 
+.footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
 
 /* Style for the info div */
 #info {
