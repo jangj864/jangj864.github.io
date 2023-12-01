@@ -1,11 +1,24 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Define an array of messages for each button
-    let messages = [
-      [' It was Regrettable! ', 'I expected a kiwi flavor', 'But it tasted like cucumber', 'Definitely Regrettable!'],
-      ['It was Regrettable!', 'I spilled water on my laptop', 'So I had no choice but to buy a new one', 'Definitely Regrettable!'],
-      ['It was Satisfying!', 'It tastes like sparkling POWERADE', 'Which was much better than sparkling cucumber', 'Definitely Satisfying!'],
-      ['It was Satisfying!', 'The price was affordable', 'And it was delicious!', 'Definitely Satisfying!']
+    
+    let messagesStack = [
+        ' It was Regrettable! ', 'I expected a kiwi flavor', 
+        'But it tasted like cucumber', 'Definitely Regrettable!',
+        // ... other messages
+        'Announcement: Move to the next one!'
     ];
+    let currentMessageIndex = 0;
+    
+    function displayNextMessage() {
+        if (currentMessageIndex < messagesStack.length) {
+            let message = messagesStack[currentMessageIndex];
+            alert(message); // Change this to however you wish to display the message
+            currentMessageIndex++;
+        } else {
+            alert('No more messages.');
+        }
+    }
+    
     
     // Define a function to handle button clicks
     function handleButtonClick(buttonId, outputId, messageIndex) {
@@ -15,9 +28,9 @@ document.addEventListener('DOMContentLoaded', function() {
   
       button.addEventListener('click', function() {
         // Display the next message or show a popup if out of messages
-        if (clickCount < messages[messageIndex].length) {
-          output.textContent = messages[messageIndex][clickCount];
-          clickCount++;
+        if (currentMessageIndex < messagesStack.length) {
+          displayNextMessage();
+          
         } else {
           alert('All explanations are over for this item. Move to next one!');
         }
