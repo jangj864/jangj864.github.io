@@ -242,11 +242,7 @@ transition: all 0.5s ease;
     max-width: 750px;
  }
 }
- .entry {
-  grid-template-columns: 1fr 1fr 1fr; 
-  column-gap: 5px; 
-  row-gap: 0px; 
- }
+
 
 /* Add media query for smaller screens */
 @media screen and (max-width: 768px) {
@@ -292,11 +288,6 @@ transition: all 0.5s ease;
     width: 100%;
     height: auto;
     max-width: 750px;
-  }
-  .entry {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-    column-gap: 5px; 
-    row-gap: 0px; 
   }
 }
 

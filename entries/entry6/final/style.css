@@ -110,6 +110,13 @@ body {
   transition: opacity 0.5s ease-in-out;
 }
 
+@media (min-width: 0px) {
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 750px;
+ }
+}
 
 /* Tablet breakpoint */
 @media (min-width: 768px) {
@@ -118,6 +125,12 @@ body {
     column-gap: 10px; 
     row-gap: 10px; 
 }
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 750px;
+}
+
   
 }
 
@@ -127,6 +140,11 @@ body {
   grid-template-columns: 1fr 1fr 1fr; 
   column-gap: 10px; 
   row-gap: 10px; 
+}
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 750px;
 }
 
 }
@@ -138,6 +156,11 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr; 
   column-gap: 10px; 
   row-gap: 10px; 
+}
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 1000px; /* 이미지 최대 너비 지정 */
 }
 
 }
@@ -152,5 +175,9 @@ body {
     column-gap: 10px; 
     row-gap: 10px; 
 }
-  
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 1000px; /* 이미지 최대 너비 지정 */
+}
 }
