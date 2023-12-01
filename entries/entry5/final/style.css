@@ -1,10 +1,10 @@
-body {
+.body {
   background-color: lavender;
   height: 200vh;
   cursor: url('/entries/entry5/final/img/fingercursor.png'), auto;
 }
 
-h1 {
+.h1 {
   font-family: "bitcount-mono-single-square", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -14,19 +14,19 @@ h1 {
   font-size: 35px;
 }
 
-h2 {
+.h2 {
   font-family: "bitcount-grid-double-plus", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
-h3 {
+.h3 {
   font-family: "bitcount-grid-double-square", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-h4 {
+.h4 {
   font-family: "bitcount-mono-single-square", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -35,7 +35,7 @@ h4 {
   text-align: center; 
 }
 
-h5 {
+.h5 {
   font-family: "ccsignlanguage", sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -47,7 +47,7 @@ h5 {
   color: #545E75;
 }
 
-h6 {
+.h6 {
   font-family: "six-hands-condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -57,7 +57,7 @@ h6 {
 }
 
 
-hr {
+.hr {
   border-top: 1px dashed rgb(80, 80, 80);
 }
 
@@ -72,7 +72,7 @@ hr {
   -webkit-transform:translateX(-56.5%);
 }
 
-div {
+.div {
   width: 340px;
   height: 110px;
   margin:0 auto;
@@ -159,10 +159,10 @@ cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/d
   border-bottom: 20px solid transparent;
 }
 
-footer {
+.footer {
   text-align: center;
   padding: 1em;
   background-color: #000000;
   color: #ffffff;
-  position:absolute;
+  position: relative;
 }
