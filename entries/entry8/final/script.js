@@ -9,8 +9,9 @@ $(document).ready(function() {
         // Determine the text to display based on the click count
         var textToShow = "";
         switch (clickCount) {
-            case 1: textToShow = "<p class='home-text'><span>Hot Dried Pot</span> : Free Food. My friend spent his money.</p>"; 
-            break;
+            case 1: 
+                textToShow = "<p class='home-text'><span>Hot Dried Pot</span> : Free Food. My friend spent his money.</p>"; 
+                break;
             case 2:
                 textToShow = "<p class='seven-eleven-text'><span>Chicken</span> : The chicken has no meat, only batter, and it tastes bad.</p>" +
                              "<p class='seven-eleven-text2'><span>Doritos</span> : Nacho cheese is the second-best flavor.</p>";
@@ -22,22 +23,24 @@ $(document).ready(function() {
             case 4: 
                 textToShow = "<p class='weee-text'><span>Cooked White Rice</span> : Essential supplies for securing food this month.</p>" +
                              "<p class='weee-text2'><span>Stir-Fried Topokki</span> : Delicious but detrimental to diet.</p>"; 
-                
                 break;
-            case 5: textToShow = "<p class='parsons-text'><span>TNS Restaurants</span> : I ordered pepperoni pizza, but the size was too small.</p>"; break;
+            case 5: 
+                textToShow = "<p class='parsons-text'><span>TNS Restaurants</span> : I ordered pepperoni pizza, but the size was too small.</p>"; 
+                break;
             case 6:
                 textToShow = "<p class='refresh-text'>Refresh to Restart!</p>";
-                // Move the block back to its original position
-                $("#block").animate({
-                    marginLeft: "-340px"
-                }, 500);
-                clickCount = -1; // Reset the count
+                break;
+            case 7:
+                textToShow = "<p class='refresh-text'>Refresh to Restart!</p>";
+                // Display an alert to the user
+                alert("Refresh to Restart!");
+                // Refresh the page
+                window.location.reload(true);
                 break;
         }
 
         $("#info").html(textToShow); 
 
-        
         if (clickCount < 6) {
             var dest = parseInt($("#block").css("margin-left").replace("px", "")) + 220;
             if (dest > 1320) {
