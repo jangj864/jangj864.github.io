@@ -89,13 +89,16 @@ footer {
   background-color: #333; /* or any color you prefer */
   color: white; /* or any color you prefer */
   text-align: center;
-  padding: 10px 0; /* Adjust the padding to manage the height */
   font-family: Arial, sans-serif; /* Your preferred font */
   font-size: 14px; /* Your preferred size */
   z-index: 1000;
   word-spacing: 0px;
   letter-spacing: 0px;
   text-shadow: 0px 0px #787878;
+  text-align: center;
+  padding: 1em;
+  font-style: normal;
+  font-weight: normal;
 }
 
 
