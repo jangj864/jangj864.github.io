@@ -41,7 +41,7 @@ $(document).ready(function() {
 
         $("#info").html(textToShow); 
 
-        if (clickCount < 6) {
+        if (clickCount < 7) {
             var dest = parseInt($("#block").css("margin-left").replace("px", "")) + 220;
             if (dest > 1320) {
                 // If destination is greater than 1320px, reset to 10px
