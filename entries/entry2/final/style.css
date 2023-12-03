@@ -78,7 +78,7 @@ h1, h2, h3, h6, p {
     white-space: pre;
   }
   
-.footer {
+  footer {
     position: fixed;
     left: 0;
     bottom: 0;
