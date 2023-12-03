@@ -113,8 +113,10 @@ footer p {
 
 #navstyle {
   display: flex;
-  justify-content: space-between;
-  padding:  10px 30px 1px 30px;
+  justify-content: center; 
+  gap: 40px; 
+  margin-top: 10px;
+  padding: 0;
 }
 
 

@@ -109,9 +109,11 @@ h1, h2, h3, h6, p {
   
   #navstyle {
     display: flex;
-    justify-content: space-between;
     padding:  10px 30px 1px 30px;
-  }
+      display: flex;
+      justify-content: center; /* Center the buttons horizontally */
+      gap: 40px; /* Creates 20px of space between each flex item */
+    }
   
   
   .navstylebutton {

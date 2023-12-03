@@ -50,9 +50,13 @@ footer p {
 
 #navstyle {
   display: flex;
-  justify-content: space-between;
-  padding:  10px 30px 1px 30px;
+  justify-content: center; 
+  gap: 60px; 
+  margin-top: 10px;
+  padding: 0;
 }
+
+
 
 
 .navstylebutton {
@@ -102,9 +106,9 @@ footer p {
 
 #navstyle {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Creates 20px of space between each flex item */
 }
-
 
 .navstylebutton {
   appearance: none;

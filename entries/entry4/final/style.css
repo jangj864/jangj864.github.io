@@ -87,8 +87,9 @@ footer p {
 
 
 #navstyle {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 40px; /* Creates 20px of space between each flex item */
   padding:  10px 30px 1px 30px;
 }
 
