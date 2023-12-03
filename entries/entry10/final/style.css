@@ -98,16 +98,40 @@ footer {
   transform: translateY(-2px);
 }
 
-.navstylebutton:active {
-  box-shadow: none;
-  transform: translateY(0);
-}
-  
-  #actionButton1:hover {
-    box-shadow: #bf00ff 0 0 0 3px, transparent 0 0 0 0;
-  }
 
-#output1{
+#actionButton1 {
+  align-items: center;
+  background-color: rgb(21, 143, 0);
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#actionButton1:hover {
+  box-shadow: #bf00ff 0 0 0 3px, transparent 0 0 0 0;
+}
+
+#output1 {
   margin-top: 20px;
   padding: 15px;
   border: 4px solid #ffffff;
@@ -115,7 +139,6 @@ footer {
   color: #bf00ff;
   font-size: 25px;
 }
-
 #actionButton2 {
   align-items: center;
   background-color: rgb(21, 143, 0);
