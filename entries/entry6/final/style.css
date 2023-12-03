@@ -126,7 +126,7 @@ footer {
   word-spacing: 0px;
   letter-spacing: 0px;
   text-shadow: 0px 0px #787878;
-  padding: 1em;
+  padding:  10px 10px 0px 1px;
   font-style: normal;
   font-weight: normal;
   -webkit-font-smoothing: antialiased; /* Improves text rendering in Webkit browsers (Chrome, Safari) */
@@ -134,10 +134,16 @@ footer {
   border-top: 1px solid #444; /* Adds a border top for design, if needed */
 }
 
+footer p {
+  white-space: normal; /* Allows text to wrap normally */
+  margin-top: -9px;
+}
+
 
 #navstyle {
   display: flex;
   justify-content: space-between;
+  padding:  8px 20px 0px 30px;
 }
 
 

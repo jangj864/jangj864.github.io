@@ -428,10 +428,10 @@ footer {
   font-family: 'Arial', sans-serif !important; /* Use a common font to avoid discrepancies */
   font-size: 14px !important; /* Ensures the font size is not overridden */
   z-index: 1000;
-  word-spacing: 0px;
+  word-spacing: -1px;
   letter-spacing: 0px;
   text-shadow: 0px 0px #787878;
-  padding: 1em;
+  padding:  10px 10px 0px 0px;
   font-style: normal;
   font-weight: normal;
   -webkit-font-smoothing: antialiased; /* Improves text rendering in Webkit browsers (Chrome, Safari) */
@@ -439,10 +439,16 @@ footer {
   border-top: 1px solid #444; /* Adds a border top for design, if needed */
 }
 
+footer p {
+  white-space: normal; /* Allows text to wrap normally */
+  margin-top: -9px;
+}
+
 
 #navstyle {
   display: flex;
   justify-content: space-between;
+  padding:  10px 10px 0px 30px;
 }
 
 

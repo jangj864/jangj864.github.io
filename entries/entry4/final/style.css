@@ -58,8 +58,8 @@ body {
 
 footer {
   position: fixed;
-  left: 0;
-  bottom: 0;
+  left: -20px;
+  bottom: -40px;
   width: 100%;
   background-color: #333 !important; /* Ensures the background color is not overridden */
   color: white !important; /* Ensures the text color is not overridden */
@@ -67,21 +67,29 @@ footer {
   font-family: 'Arial', sans-serif !important; /* Use a common font to avoid discrepancies */
   font-size: 14px !important; /* Ensures the font size is not overridden */
   z-index: 1000;
-  word-spacing: 0px;
+  word-spacing: -1px;
   letter-spacing: 0px;
   text-shadow: 0px 0px #787878;
-  padding: 1em;
+  padding:  10px 30px -5px 100px;
+  margin-bottom: -30px;
   font-style: normal;
+  line-height: 14px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased; /* Improves text rendering in Webkit browsers (Chrome, Safari) */
   -moz-osx-font-smoothing: grayscale; /* Improves text rendering in Firefox */
   border-top: 1px solid #444; /* Adds a border top for design, if needed */
 }
 
+footer p {
+  white-space: normal; /* Allows text to wrap normally */
+  margin-top: -9px;
+}
+
 
 #navstyle {
   display: flex;
   justify-content: space-between;
+  padding:  10px 30px 1px 30px;
 }
 
 
@@ -315,7 +323,7 @@ transition: all 0.5s ease;
   cursor: pointer;
 }
 
-@media (min-width: 0px) {
+@media (min-width: 1px) {
   .body {
     margin: 0;
     padding-bottom: 60px;
@@ -327,14 +335,15 @@ transition: all 0.5s ease;
     max-width: 750px;
  }
  footer {
-  padding: 10px 20px; /* Adjust vertical and horizontal padding as needed */
+  padding: 10px 20px; 
+  margin-bottom: -30px;
 }
 
 }
 
 
 /* Add media query for smaller screens */
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) {
     header, h2, h3, h4 {
         font-size: 1.5em; 
     }
@@ -350,7 +359,8 @@ transition: all 0.5s ease;
   }
 
   footer {
-    padding: 10px 20px; /* Adjust vertical and horizontal padding as needed */
+    padding: 10px 20px; 
+    margin-bottom: 10px;
   }
 
   .fakelink {
@@ -393,9 +403,12 @@ transition: all 0.5s ease;
   }
   footer {
     padding: 10px 20px; /* Adjust vertical and horizontal padding as needed */
+    margin-bottom: 20px;
   }
 
 }
+
+
 
 @media (min-width: 1200px) {
   .responsive-image {
@@ -406,7 +419,7 @@ transition: all 0.5s ease;
 
   footer {
     padding: 10px 20px; /* Adjust vertical and horizontal padding as needed */
+    margin-bottom: 20px;
   }
-
 
 }
