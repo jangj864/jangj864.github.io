@@ -29,12 +29,30 @@ main {
   margin: 2em;
 }
 
+h6{
+  font-size: 10px;
+  color: rgb(255, 255, 255); /* or any color you prefer */
+  text-shadow: 0px 0px #787878;
+  box-shadow: 0px;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+  font-style: normal;
+  width: 100%;
+  text-align: center;
+  font-family: 'Arial', sans-serif !important; /* Use a common font to avoid discrepancies */
+  z-index: 1000;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased; /* Improves text rendering in Webkit browsers (Chrome, Safari) */
+  -moz-osx-font-smoothing: grayscale; /* Improves text rendering in Firefox */
+}
+
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #333; /* or any color you prefer */
+    background-color: #33333300; /* or any color you prefer */
     color: white; /* or any color you prefer */
     text-align: center;
     padding: 10px 0; /* Adjust the padding to manage the height */
@@ -62,8 +80,8 @@ footer {
 .navstylebutton {
   appearance: none;
   background-color: transparent;
-  border: 2px solid #1A1A1A;
   border-radius: 15px;
+  border: 2px solid #1A1A1A;
   box-sizing: border-box;
   color: #3B3B3B;
   cursor: pointer;
