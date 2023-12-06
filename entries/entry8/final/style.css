@@ -38,9 +38,8 @@ h6{
 footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: -40px;
   width: 100%;
-  background-color: rgba(51, 51, 51, 0)fff !important; /* Ensures the background color is not overridden */
   color: white !important; /* Ensures the text color is not overridden */
   text-align: center;
   font-family: 'Arial', sans-serif !important; /* Use a common font to avoid discrepancies */

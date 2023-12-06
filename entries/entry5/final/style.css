@@ -182,7 +182,7 @@ cursor: url('/Users/ddoazoo/Documents/GitHub/jangj864.github.io/entries/entry5/d
 footer {
   position: fixed;
   left: 0px;
-  bottom: 0px;
+  bottom: -40px;
   width: 100%;
   background-color: #33333300 !important; 
   color: white !important; 

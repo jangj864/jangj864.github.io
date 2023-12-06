@@ -50,7 +50,7 @@ h6{
 footer {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     background-color: #33333300; /* or any color you prefer */
     color: white; /* or any color you prefer */
